@@ -1,14 +1,10 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function Landing() {
   return (
-    <div className="bg-slate-600 h-36">
-      <div className="text-center text-white flex items-center justify-center h-36">
-        Brainsprout
-      </div>
-      <div className="border bg-slate-100 p-2 w-min">
-        <Link href="/about">about</Link>
-      </div>
+    <div className="h-screen bg-green-400 md:flex">
+      <div className="md:h-screen bg-orange-300 h-2/3 md:w-2/3"></div>
+      <div className="md:h-screen bg-blue-200 md:w-1/3"></div>
     </div>
   );
 }
