@@ -19,7 +19,7 @@ export default function Welcome() {
         </div>
       </div>
       <div className="h-2/3 md:flex">
-        <div className="h-1/2 bg-slate-200 flex items-center justify-center md:h-full md:w-1/2">
+        <div className="h-1/2 bg-slate-300 flex items-center justify-center md:h-full md:w-1/2">
           <ButtonTextCenter text="New Entry" link="" title="New Entry" />
         </div>
         <div className="h-1/2 bg-slate-100 flex items-center justify-center md:h-full md:w-1/2">
